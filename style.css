@@ -1,0 +1,129 @@
+/* General page styling */
+body {
+    background-color: #f1f8f5;
+    font-family: poppins;
+    /* margin: 0; */
+    padding: 20px;
+}
+
+/* Title styling */
+#title {
+    font-family: poppins;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#subtitle {
+    font-family: poppins;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Input and button styling */
+#query-input {
+    width: 85%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+}
+
+#search-button {
+    color: #053e70;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    font-size: 16px;
+    width: 10%;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 25px;
+}
+
+#search-button:hover {
+    color: #ffffff;
+    background-color: #053e70;
+    border-color: #ced4da;
+}
+
+.nav-tabs .nav-link {
+    background-color: #d9e5ef !important;
+    color: #000105 ; 
+    font-size: 15px; 
+    padding: 10px; 
+    width: 15vw;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #053e70 !important;
+    color: white !important; 
+    font-size: 15px; 
+    padding: 10px; 
+    width: 15vw;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(68, 65, 65); 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tabs {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* Search results styling */
+#search-results {
+    font-size: 16px;
+    color: #333;
+    padding: 15px;
+}
+
+#search-results h4 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+
+
+#search-results p {
+    color: #6c757d;
+    font-size: 15px;
+}
+
+#author {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
